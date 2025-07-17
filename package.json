@@ -1,0 +1,25 @@
+{
+  "name": "secure-data-prototype",
+  "version": "1.0.0",
+  "description": "Prototype: TLS1.3 + mTLS + JWE in Express.js",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharsh560/Secure-data-prototype.git"
+  },
+  "author": "Kumar_Harsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kharsh560/Secure-data-prototype/issues"
+  },
+  "homepage": "https://github.com/kharsh560/Secure-data-prototype#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jose": "^6.0.12"
+  }
+}
